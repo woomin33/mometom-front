@@ -1,38 +1,480 @@
-.App {
-  text-align: center;
+.divider{
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.emphasis{
+  font-weight: bolder;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.category{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 3px 20px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.category:hover{
+  background-color: rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+}
+
+.rect-category{
+  width: 100%;
+  padding: 3px 15px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.rect-category:hover{
+  background-color: rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+}
+
+.dev-category{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 5px 20px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.dev-category:hover{
+  background-color: rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+}
+
+.black-button{
+  border-radius: 46px;
+  width: 95px;
+  height: 30px;
+
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 1);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+
+  cursor: pointer;
+}
+
+.black-button:hover{
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.auth-button{
+  border-radius: 46px;
+
+  width: 100%;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+
+  cursor: pointer;
+}
+
+.black-large-full-button{
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.auth-button.black-large-full-button:hover{
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.auth-large-half-button-kakao{
+  background-color: rgba(255, 255, 0, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.auth-button.auth-large-half-button-kakao:hover{
+  background-color: rgba(255, 255, 0, 0.75);
+}
+
+.auth-large-half-button-naver{
+  background-color: rgba(0, 255, 0, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.auth-button.auth-large-half-button-naver:hover{
+  background-color: rgba(0, 255, 0, 0.7);
+}
+
+.disable-button{
+  border-radius: 46px;
+  width: 95px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+
+  cursor: not-allowed;
+}
+
+.white-button{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 46px;
+  width: 93px;
+  height: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 1);
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+
+  cursor: pointer;
+}
+
+.white-button:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.white-button-rectangle{
+  width: 200px;
+  height: 32px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+
+  padding: 3px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 1);
+
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 14px;
+  line-height: 140%;
+
+  transition: background-color 0.3s ease;
+  
+
+  cursor: pointer;
+}
+
+.white-button-rectangle:hover{
+  background-color: rgba(55, 55, 55, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.word-badge{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 6px 20px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.word-badge:hover{
+  background-color: rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+}
+
+.icon-box-large{
+  width: 40px;
+  height: 40px;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.icon-box-big{
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-box{
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-box-small{
+  width: 16px;
+  height: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-button{
+  border-radius: 50% 50%;
+
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.icon-button:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.icon-rect{
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.icon-rect-title{
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 14px;
+  line-height: 140%;
+
+}
+
+.icon{
+  width: 100%;
+  height: 100%;
+
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.icon-rect-button{
+  color: rgba(255, 255, 255, 1);
+
+  border-radius: 5px;
+  width: 100%;
+  height: 56px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  cursor: pointer;
+}
+
+
+.eye-light-off-icon{
+  background-image: url(assets/image/eye-light-off.png);
+} 
+
+.eye-light-on-icon{
+  background-image: url(assets/image/eye-light-on.png);
+}
+
+.expand-right-light-icon{
+  background-image: url(assets/image/expand-right-light.png);
+}
+
+.expand-left-icon{
+  background-image: url(assets/image/expand-left.png);
+}
+
+.expand-right-icon{
+  background-image: url(assets/image/expand-right.png);
+}
+
+.logo-light-icon{
+  background-image: url(assets/image/footer-icon.png);
+}
+
+.github-icon{
+  background-image: url(assets/image/github.png);
+}
+
+.naver-blog-icon{
+  background-image: url(assets/image/naver-blog.png);
+}
+
+.logo-dark-icon{
+  background-image: url(assets/image/auth-icon.png);
+}
+
+.search-light-icon{
+  background-image: url(assets/image/search-light.png);
+}
+
+.check-round-fill-icon{
+  background-image: url(assets/image/check-round-fill.png);
+}
+
+.check-ring-light-icon{
+  background-image: url(assets/image/check-ring-light.png);
+}
+
+.image-box-light-icon{
+  background-image: url(assets/image/image-box-light.png);
+}
+
+.video-box-light-icon{
+  background-image: url(assets/image/video-box-light.png);
+}
+
+.close-icon{
+  background-image: url(assets/image/close.png);
+}
+
+.more-icon{
+  background-image: url(assets/image/more.png);
+}
+
+.favorite-fill-icon{
+  background-image: url(assets/image/favorite-fill.png);
+}
+
+.favorite-light-icon{
+  background-image: url(assets/image/favorite-light.png);
+}
+
+.up-light-icon{
+  background-image: url(assets/image/expand-up-light.png);
+}
+
+.down-light-icon{
+  background-image: url(assets/image/expand-down-light.png);
+}
+
+.comment-icon{
+  background-image: url(assets/image/chat-light.png);
+}
+
+.order-icon{
+  background-image: url(assets/image/order.png);
+}
+
+.menu-expand-left{
+  background-image: url(assets/image/menu-expand-left.png);
+}
+
+.menu-expand-right{
+  background-image: url(assets/image/menu-expand-right.png);
+}
+
+.side-close-icon{
+  background-image: url(assets/image/side-close-icon.png);
+}
+
+.view-count-light{
+  background-image: url(assets/image/view-count-light.png);
+}
+.bookmark-light{
+  background-image: url(assets/image/bookmark-light.png);
+}
+
+.bookmark-light-gray{
+  background-image: url(assets/image/bookmark-light-gray.png);
+}
+
+.bookmark-fill{
+  background-image: url(assets/image/bookmark-fill.png);
+}
+
+.location-rating-icon{
+  background-image: url(assets/image/location-rating-icon.png);
+}
+.location-address-icon{
+  background-image: url(assets/image/location-address-icon.png);
+}
+
+.location-hours-icon{
+  background-image: url(assets/image/location-hours-icon.png);
+}
+
+.location-contact-icon{
+  background-image: url(assets/image/location-contact-icon.png);
+}
+
+.location-service-icon{
+  background-image: url(assets/image/location-service-icon.png);
+}
+
+.edit-icon{
+  background-image: url(assets/image/edit-light.png);
+}
+
+.image-box-white-icon{
+  background-image: url(assets/image/image-box-white-light.png);
+}
+
+.map-light{
+  background-image: url(assets/image/map-light.png);
+}
+
+.employ-light{
+  background-image: url(assets/image/employ-light.png);
+}
+
+.phone-icon{
+  background-image: url(assets/image/phone-icon.png);
+}
+
+.mail-icon{
+  background-image: url(assets/image/mail-icon.png);
+}
+
+.puls-icon{
+  background-image: url(assets/image/plus-icon.png);
+}
+.h{
+  z-index: 2;
+}
+
+.m{
+  z-index: 0;
 }

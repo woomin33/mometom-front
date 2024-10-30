@@ -1,0 +1,277 @@
+#corporation-management-wrapper{
+    min-width: 1440px;
+    min-height: 960px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.corporation-management-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+
+.corporation-management-top-container{
+    width: 100%;
+    height: 440px;
+    
+    display: flex;
+
+    background-color: rgba(0, 0, 0, 0.04);
+    
+    
+    
+    
+}
+
+.corporation-management-top-box{
+    position: absolute;
+    right: 0;
+    width: 1040px;
+    height: 440px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+.corporation-main-image-box{
+    position: absolute;
+    left: -300px;
+    width: 640px;
+    height: 360px;
+    display: flex;
+    
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+.corporation-main-image{
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    
+    
+}
+
+.corporation-management-top-title-card{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.corporation-management-top-name{
+    color: rgba(55, 55, 55, 1);
+
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.corporation-management-top-introduction{
+    color: rgba(55, 55, 55, 1);
+
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.corporation-management-bottom-container{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    
+    
+    
+}
+
+
+
+.corporation-managemnt-bottom-content-container{
+    width: 980px;
+    min-height: 80%;
+    background-color: rgba(255, 255, 255, 1);
+    
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+    display: flex;
+    
+    
+    
+    padding: 30px;
+    
+    
+}
+
+.corporation-info-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    
+    
+    
+    
+    gap: 20px;
+}
+
+.corporation-info-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 140%;
+
+    
+    
+}
+
+.corporation-info-content{
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+.corporation-map-box{
+    display: flex;
+    align-items: center;
+    
+}
+
+.map{
+    width: 100%;
+    height: 300px;
+
+    
+}
+
+.image-container {
+    display: flex;
+    gap: 10px; 
+    border-radius: 5px;
+  }
+  
+.image-container img {
+    
+    width: 320px;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+
+.corporation-employ-box{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.corporation-new-employ-button{
+    width: 100px;
+    height: 20px;
+    padding: 10px 25px;
+    
+
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(55, 55, 55, 1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(55, 55, 55, 1);
+    top: 0px;
+    left: 80%;
+    border-radius: 30px;
+    
+    
+}
+
+.corporation-new-employ-button:hover{
+    background: transparent;
+    color: rgba(55, 55, 55, 1);
+    box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+}
+
+
+
+
+
+.corporation-employing-container{
+    min-height: 250px;
+    
+}
+
+.corporation-employing-title{
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.corporation-employed-container{
+    min-height: 250px;
+}
+
+.corporation-employed-title{
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.corporation-management-bottom-nav-box{
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    background-color: rgba(0, 0, 0, 0.04);
+    
+    
+    padding-left: 200px;
+    
+    
+}
+
+.corporation-management-bottom-nav{
+    color: rgba(0, 0, 0, 0.4);
+    
+    padding: 20px;
+
+    
+    font-weight: 500;
+    line-height: 140%;
+
+    cursor: pointer;
+    
+}
+
+.corporation-delete{
+    color: rgba(255, 0, 0, 0.7);
+    cursor: pointer;
+}

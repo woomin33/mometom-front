@@ -1,0 +1,303 @@
+#community{
+    padding: 0px 0px 0px 0px;
+    min-width: 1440px;
+    
+    min-height: 960px;
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.community-wrapper{
+    width: 1200px;
+    
+    padding: 10px 0px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.community-left-container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 20px;
+    
+}
+
+.community-popular-word-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    align-items: center;
+}
+
+.community-popular-word-title{
+    width: calc(100% - 20px - 20px);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    background-image: linear-gradient(to right, rgb(142, 142, 142), rgb(55, 55, 55));
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+}
+
+.community-popular-word-content{
+    width: calc(100% - 10px - 10px);
+    padding: 10px;
+    min-height: 200px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+
+    
+}
+
+.community-popular-words{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+.community-popular-post-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    align-items: center;
+}
+
+.community-popular-post-title{
+    width: calc(100% - 20px - 20px);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    background-image: linear-gradient(to right, #d6e106, #e67e22);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+}
+
+.community-popular-post-content{
+    width: calc(100% - 10px - 10px);
+    padding: 10px;
+    min-height: 200px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    
+}
+
+.community-right-container{
+    width: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    
+    gap: 25px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+.community-right-title-box{
+    
+    padding: 10px 0px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community-right-title{
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.community-search-main-box{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.community-date-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.date-picker{
+    width: 120px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline-color: rgba(0, 0, 0, 1);
+    color: #666;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.community-search-box{
+    height: calc(60px - 10px - 10px);
+    padding: 24px 30px;
+    
+    background: #f7f7f7;
+    border-radius: 15px;    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.community-search-input{
+    width: 200px;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline-color: rgba(0, 0, 0, 1);
+    padding: 0px 10px;
+    border-radius: 5px; 
+}
+
+.community-search-button{
+    width: 45px;
+    height: 25px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    background-color: #149ea8;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.community-search-button:hover{
+    filter: brightness(90%);
+}
+
+.community-clear-button{
+    width: 45px;
+    height: 25px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    background-color: #909090;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.community-clear-button:hover{
+    filter: brightness(90%);
+}
+
+.community-post-container{
+    border-top: 2px solid #bababa;
+    border-bottom: 1px solid #e8e8e8;
+}
+.community-post-box{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.community-post-head{
+    border-bottom: 1px solid #e8e8e8;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    
+}
+
+.head-number{
+    width: 8%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.head-title{
+    width: 50%;
+    text-align: center;
+}
+
+.head-reg-date{
+    width: 13%;
+    text-align: center;
+}
+
+.head-view-count{
+    width: 8%;
+    text-align: center;
+}
+
+.head-comment-count{
+    width: 8%;
+    text-align: center;
+}
+
+.head-writer-info{
+    width: 13%;
+    text-align: center;
+}
+
+.community-post{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px 10px;
+    position: relative; /* ::before 가상 요소의 위치를 설정하기 위해 필요 */
+    overflow: hidden; /* ::before 가상 요소가 요소의 외부로 나가지 않도록 설정 */
+}
+
+.community-post:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.community-post-number{
+    width: 8%;
+    color: #666;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.community-pagination-box{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-post-info-box{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.yellow-circle{
+    color: rgb(197, 197, 0);
+    font-size: 18px;
+}
+
+.bold-text{
+    font-weight: bold;
+}

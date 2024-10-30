@@ -1,0 +1,97 @@
+#noticeRegistration{
+    min-height: 660px;
+    background-color: rgba(0, 0, 0, 0.05);
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.noticeRegistration-one-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.noticeRegistration-one-container{
+    width: 70%;
+    
+    margin: 50px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+    
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0 ,0.25);
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+.noticeRegistration-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 160%;
+}
+
+
+.coporationRegistration-one-notice-box{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.noticeRegistration-one-notice-title{
+    color: rgba(0, 0, 0, 0,7);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.noticeRegistration-category-box{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.noticeRegistration-categorys{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.noticeRegistration-endDate-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.noticeRegistration-endDate-box{
+    display: flex;
+    gap: 20px;
+}
+.noticeRegistration-one-button-container{
+    height: 50px;
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+    gap: 20px;
+}
+
+
+
+
+  

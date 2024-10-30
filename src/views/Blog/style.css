@@ -1,0 +1,161 @@
+#blog{
+    min-height: 760px;
+}
+#blog-top-wrapper{
+    padding: 30px 0;
+
+    display: flex;
+    justify-content: center;
+
+}
+.blog-top-container{
+    width: 1200px;
+    min-width: 1200px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.blog-top-category-box{
+    width: 800px;
+    /*border: 1px solid rgba(0, 0, 0, 1);*/
+    
+}
+
+.blog-top-category-title{
+    padding-bottom: 10px;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.blog-top-categorys{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.blog-top-side-box{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-top-side-card{
+    color: rgba(255, 255, 255, 1);
+
+    border-radius: 5px;
+    width: 100%;
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 1);
+
+    ;
+
+    cursor: pointer;
+}
+
+.blog-top-side-card:hover{
+    transform: scale(1.05);
+}
+
+#blog-bottom-wrapper{
+    padding: 40px 0;
+    min-height: 760px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.blog-bottom-container{
+    width: 1200px;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 20px;
+}
+
+.blog-bottom-title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.blog-bottom-title-text{
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.blog-bottom-title-order-box{
+    height: 100px;
+    overflow: scroll;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    
+
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0 ,0.25);
+    
+}
+
+.blog-bottom-title-order{
+    width: 143px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+
+    user-select: none;
+}
+
+.blog-bottom-title-order:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.blog-bottom-contents-box{
+    width: 100%;
+    
+}
+
+.blog-bottom-current-contents{
+    grid-column: 1 / 2;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.blog-bottom-pagination-box{
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: center;
+}

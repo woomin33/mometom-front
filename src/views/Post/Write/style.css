@@ -1,0 +1,62 @@
+#post-write-wrapper{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    padding: 50px 24px;
+    
+}
+
+.post-write-container{
+    
+    width: 1000px;
+    
+
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.post-write-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-write-info-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    
+    
+}
+
+.post-write-reg-button{
+    background: rgba(55, 55, 55, 1);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    font-size: 16px;
+    padding: 10px 20px;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.post-write-reg-button:hover{
+    background-color: rgba(55, 55, 55, 0.85);
+}
+
+.post-write-title-input{
+    width: calc(100% - 10px - 10px);
+    
+    outline-color: rgba(55, 55, 55, 0.5);
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.toastui-editor-contents p {
+    font-size: 20px; 
+}

@@ -1,0 +1,96 @@
+#resume-wrapper{
+    min-width: 1440px;
+    
+    min-height: 960px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.resume-container{
+    width: 1200px;
+    
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-left-container{
+    width: 450px;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.resume-left-chart-box{
+    min-height: calc(450px - 10px - 10px);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resume-left-chart-title-box{
+    flex: 1;
+    
+    padding: 10px;
+    align-items: center;
+}
+
+.resume-left-chart-title{
+    color: rgba(55, 55, 55, 1);
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.resume-left-chart{
+    width: 430px - 20px;
+    height: 430px - 20px;
+    padding: 20px;
+    
+}
+
+.resume-left-notice-box{
+    min-height: calc(450px - 10px - 10px);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+}
+
+.resume-right-container{
+    width: calc(720px - 40px - 40px);
+    margin: 10px 0px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resume-right-top-box{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.resume-right-top-title{
+    color: rgba(55, 55, 55, 1);
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.resume-right-resume-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

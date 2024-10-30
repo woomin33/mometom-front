@@ -1,0 +1,79 @@
+.post-item{
+    display: flex;
+    height: calc(50px - 10px - 10px - 1px);
+    width: 736px;
+}
+
+.post-item-title{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    overflow: hidden;
+    color: #666;
+}
+
+.post-title{
+    cursor: pointer;
+}
+
+.post-item-reg-date{
+    width: 104px;
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 13px;
+    justify-content: center;
+    
+    text-align: left;
+}
+
+.post-item-view-count{
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+}
+
+.post-item-comment-count{
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.post-list-item-write-box{
+    width: 94px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.board-list-item-nickname{
+    color: #666;
+    font-size: 13px;
+    width: 57px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.post-list-item-profile-box{
+    width: 32px;
+    height: 32px;
+}
+
+.post-list-item-profile-image{
+    border-radius: 50% 50%;
+    width: 100%;
+    height: 100%;
+
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
